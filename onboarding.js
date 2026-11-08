@@ -1,7 +1,7 @@
 /* Sổ tay KHTN9 · Hướng dẫn lần đầu + cài PWA theo thiết bị · bản 2.8.3 */
 (()=>{'use strict';
 const KEY='sotay_khtn9_guide_seen_v26';
-const APP_URL='https://cothuymenkhtn9.github.io/so-tay-vat-li-9/';
+const APP_URL='https://cothuymenkhtn9.github.io/so-tay-khtn9/';
 const pages=[
  {icon:'👋',title:'Chào mừng đến với Sổ tay KHTN 9!',body:'Khám phá Vật lí bằng hình ảnh, mô phỏng, bài hát và bài tập tự luận.'},
  {icon:'📚',title:'17 bài học dễ tra cứu',body:'Chạm “17 bài học” để mở một bài, xem sơ đồ kiến thức và công thức trọng tâm.'},
