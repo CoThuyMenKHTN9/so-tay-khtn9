@@ -205,3 +205,11 @@ body{background:radial-gradient(ellipse at 15% 0%,#cff8ff,transparent 45%),linea
 @media(max-width:990px){.topbar{height:auto;min-height:74px;flex-wrap:wrap;justify-content:space-between;row-gap:7px}.brand{flex:1 1 52%;order:0}.assistant-top-btn{order:2;margin-right:auto}.header-controls{order:1}.header-controls .demo-label{display:none}}
 @media(max-width:690px){.topbar{gap:7px;padding:7px 9px;align-items:center}.brand{flex:1 1 100%;order:0}.assistant-top-btn{order:1;min-height:42px;padding:4px 8px}.assistant-top-btn img{width:31px;height:31px}.assistant-top-btn span{font-size:12px}.header-controls{order:2;display:flex;flex:1;justify-content:flex-end;gap:5px}.header-controls .sound-toggle,.header-controls .install-top-btn,.header-controls .help-top-btn{min-width:36px;min-height:40px;padding:6px}.header-controls .sound-toggle span,.header-controls .help-top-btn span,.header-controls .install-top-btn span{display:none}}
 @media(max-width:390px){.assistant-top-btn span{font-size:11px}.assistant-top-btn img{width:26px;height:26px}}
+
+/* Chỉnh vị trí ảnh nền trang chủ trên điện thoại */
+@media (max-width: 720px) {
+  .hero.hero-photo {
+    background-position: 78% center !important;
+  }
+}
+  
